@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "693762577097",
+    "project_id": "bikroy-app",
+    "storage_bucket": "bikroy-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:693762577097:android:970a0a13bf23f8a71eb318",
+        "android_client_info": {
+          "package_name": "com.example.bikroy_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "693762577097-7q9cmlephl42r6nh0h2cvjumufft90de.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bikroy_app",
+            "certificate_hash": "080b2ca3bdec2f8bdb380bf19be6484691012119"
+          }
+        },
+        {
+          "client_id": "693762577097-u6i97da0cse7bope3s5clsa72bcql1sl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhXm5wztO5D5imIv3yMvPFt17Davvejd0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "693762577097-u6i97da0cse7bope3s5clsa72bcql1sl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
