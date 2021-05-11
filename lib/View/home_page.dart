@@ -42,7 +42,12 @@ class _HomePageState extends State<HomePage> {
           });
         },
       ),
-      body: _pages[_currentIndex],
+      body: Obx(() {
+        if ((connectivityController.connectionStatus.value == 0))
+          return internetError();
+        else
+          return _pages[_currentIndex];
+      }),
     );
   }
 

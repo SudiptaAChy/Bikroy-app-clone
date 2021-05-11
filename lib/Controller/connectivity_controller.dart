@@ -7,14 +7,13 @@ import 'package:get/get.dart';
 class ConnectivityController extends GetxController {
   var connectionStatus = 0.obs;
   final Connectivity connectivity = Connectivity();
-  StreamSubscription<ConnectivityResult> connectivitySubscription;
+  //StreamSubscription<ConnectivityResult> connectivitySubscription;
 
   @override
   void onInit() {
     super.onInit();
     getConnectionStatus();
-    connectivitySubscription =
-        connectivity.onConnectivityChanged.listen(updateConnectivityStatus);
+    //connectivitySubscription = connectivity.onConnectivityChanged.listen(updateConnectivityStatus);
   }
 
   Future<void> getConnectionStatus() async {

@@ -1,7 +1,6 @@
 import 'package:bikroy_app/Bindings/connection_binding.dart';
-import 'package:bikroy_app/View/home_page.dart';
 import 'package:bikroy_app/View/messages.dart';
-import 'package:bikroy_app/View/product_details.dart';
+import 'package:bikroy_app/View/setting.dart';
 import 'package:bikroy_app/View/splash_screen.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
@@ -44,7 +43,7 @@ class _MyAppState extends State<MyApp> {
       debugShowCheckedModeBanner: false,
       title: 'Bikroy.com',
       initialBinding: ConnectionBinding(),
-      home: SplashScreen(),
+      home: Settings(),
     );
   }
 }
