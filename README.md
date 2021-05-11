@@ -8,6 +8,7 @@ This is the clone of buying selling platform 'Bikroy.com' mobile app.
 - MVC desing pattern.
 - Getx state management.
 - Mutli Language (Bangla, English) supports.
+- Google login system
 - Image slider & Banner slider.
 
 ## ScreenShots
